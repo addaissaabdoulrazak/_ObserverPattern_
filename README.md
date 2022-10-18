@@ -10,6 +10,6 @@ Avec ce type d'exemple il serait plus simple de séparer les classes afin d'avoi
 Nb:  chaque événement(opération) ne doit concerné que l'ensemble des objets qui lui sont associé. Il faut pas qu'un événement (open) par exemple ait un impacte su tout les éléments. 
 Un événement doit être limité a la liste d'éléments qui le concerne.
 
--Ainsi avec ce design pattern le fait que les classes ne soit pas couplet cela permet de les réutilisées dans d'autre application.
+-Ainsi avec ce design pattern le fait que les classes ne soit pas couplet cela permet de les réutilisées dans d'autre application.    
 -Nous pouvons également ajouter d'autre type de fonctionnalité(d'autre classe écouteur, souscripteurs) sans pour autant modifié le code de Editor/bouton
  
