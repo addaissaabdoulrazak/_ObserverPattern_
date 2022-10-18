@@ -7,8 +7,10 @@ Avec ce type d'exemple il serait plus simple de séparer les classes afin d'avoi
 
 -Identification : Ce patron peut être reconnu <<dans les méthodes de souscription qui stockent des objets dans une liste>> et par <<les appels des objets de cette liste à la méthode update>>. 
 
-Nb:  
+Nb: 
+---
 -chaque événement(opération) ne doit concerné que l'ensemble des objets qui lui sont associé. Il faut pas qu'un événement (open) par exemple ait un impacte su tout  les éléments.
+
 -noté également il existe plusieurs type d'eévénement à savoir : << click, mouseleave, submit, focus, blur etc >> et chaque ecouteurs <<doit indiquer>> l'evenement qu'il souhaite écouter(on peut pas ecouter plusieurs événements)
 Un événement doit être limité a la liste d'éléments qui le concerne.
 
